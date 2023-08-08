@@ -27,7 +27,7 @@ async function loadCitiesData() {
         await populateCitiesData();
         CITIES_COUNT = await cities.count();
     };
-    startClock()
+    // startClock()
 };
 
 async function loadBreweriesData() { 
